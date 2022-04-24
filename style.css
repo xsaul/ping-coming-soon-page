@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+#first {
+  padding: 3rem;
+}
+
+#first img {
+  margin: 2.5rem;
+  position: relative;
+  left: 33rem;
+  width: 9rem;
+}
+
+#first h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  margin: 1rem;
+  position: relative;
+  left: 17rem;
+  font-size: 4rem;
+  width: 56%;
+}
+
+span {
+  color: #000;
+  font-weight: 700;
+}
+
+#first h3 {
+  font-weight: 300;
+  color: hsl(209, 33%, 12%);
+  position: relative;
+  left: 29rem;
+  font-size: 1.6rem;
+  width: 40%;
+}
+
+.container-form {
+  position: relative;
+  left: 22rem;
+  top: 3rem;
+}
+
+input {
+  border: 1px solid hsl(223, 100%, 88%);
+  color: #000;
+  padding: 1.2rem;
+  padding-right: 13rem;
+  border-radius: 30px;
+}
+
+form.error input {
+  border: 2px solid hsl(0, 93%, 68%);
+}
+
+button {
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 1.2rem 4rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(223, 100%, 88%);
+}
+
+small {
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  color: hsl(354, 100%, 66%);
+  display: none;
+}
+
+#second {
+  margin-top: 5rem;
+  width: 90%;
+}
+
+#second img {
+  width: 95%;
+  position: relative;
+  left: 6rem;
+}
+
+footer {
+  padding-top: 1rem;
+  position: relative;
+  left: 38rem;
+  top: 4rem;
+}
+
+.socials {
+  border: 0.5px solid hsl(223, 100%, 88%);
+  color: hsl(223, 87%, 63%);
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.socials:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+  border: 0.5px solid transparent;
+}
+
+footer p {
+  color: hsl(0, 0%, 59%);
+  margin-top: 1rem;
+  position: relative;
+  left: -4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #first {
+    padding: 0;
+  }
+
+  #first img {
+    left: 24rem;
+  }
+
+  #first h1 {
+    left: 17rem;
+    font-size: 2.5rem;
+    width: 60%;
+  }
+
+  #first h3 {
+    left: 22rem;
+    width: 41%;
+  }
+
+  .container-form {
+    left: 11rem;
+  }
+
+  #second img {
+    left: 9rem;
+  }
+
+  footer {
+    padding: 1.5rem 0;
+    left: 24rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #first img {
+    left: 15rem;
+  }
+
+  #first h1 {
+    left: 9rem;
+    font-size: 2.2rem;
+    width: 100%;
+  }
+
+  #first h3 {
+    left: 12rem;
+    width: 74%;
+  }
+
+  .container-form {
+    left: 8rem;
+  }
+
+  input::placeholder {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 1.2rem 9.5rem;
+    margin-left: 0;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  #second img {
+    left: 6rem;
+    width: 120%;
+  }
+
+  footer {
+    left: 15rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #first img {
+    left: 13rem;
+  }
+
+  #first h1 {
+    left: 7rem;
+    font-size: 2rem;
+  }
+
+  #first h3 {
+    left: 9rem;
+    width: 84%;
+  }
+
+  .container-form {
+    left: 7rem;
+  }
+
+  button {
+    padding: 1.2rem 8.5rem;
+  }
+
+  footer {
+    left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #first img {
+    left: 10rem;
+  }
+
+  #first h1 {
+    left: 6rem;
+    font-size: 1.8rem;
+  }
+
+  #first h3 {
+    left: 7.5rem;
+    width: 97%;
+  }
+
+  .container-form {
+    left: 5rem;
+  }
+
+  button {
+    padding: 1.2rem 6rem;
+    margin-left: 2.1rem;
+  }
+
+  footer {
+    left: 10rem;
+  }
+
+  footer p {
+    left: -5rem;
+    font-size: 18px;
+  }
+}
